@@ -1,0 +1,29 @@
+body::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+
+    background-image: url('https://c8.alamy.com/comp/KMMHGF/back-to-school-seamless-pattern-with-hand-drawn-doodles-sketch-element-KMMHGF.jpg');
+    
+    opacity: 0.3;
+}
+
+
+.container{
+    position: relative;
+    opacity: 1;
+    padding: 10px;
+}
+
+.ulItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+p{
+    margin: 0;
+}
